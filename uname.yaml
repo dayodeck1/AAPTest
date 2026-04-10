@@ -9,4 +9,4 @@
 
   - name: print output
     debug:
-      var: uname_output
+      var: uname_output.stdout_lines
