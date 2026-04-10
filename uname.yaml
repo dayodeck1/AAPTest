@@ -5,3 +5,8 @@
   tasks:
   - name: uname 
     shell: uname -a
+    register: uname_output
+
+  - name: print output
+    debug:
+      var: uname_output
